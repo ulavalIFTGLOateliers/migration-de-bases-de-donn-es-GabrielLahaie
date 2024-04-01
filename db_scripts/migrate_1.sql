@@ -1,5 +1,4 @@
 
-
 CREATE TABLE band(
     bandName varchar(50) PRIMARY KEY ,
     creation YEAR,
@@ -26,6 +25,3 @@ UPDATE musician SET bandName = 'Crazy Duo' WHERE musicianName = 'Alina';
 UPDATE musician SET bandName = 'Mysterio' WHERE musicianName = 'Mysterio';
 UPDATE musician SET bandName = 'Crazy Duo' WHERE musicianName = 'Rainbow';
 UPDATE musician SET bandName = 'Luna' WHERE musicianName = 'Luna';
-
-
-
